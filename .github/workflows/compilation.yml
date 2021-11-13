@@ -23,7 +23,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        apk add make git bash
+        apk add gmp mpfr mpc1 make git bash
     
 
     - name: Compile project
